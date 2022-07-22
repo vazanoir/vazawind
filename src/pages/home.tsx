@@ -1,19 +1,27 @@
 import React from 'react';
+import NavigationButtons from '../components/NavigationButtons';
 import Page from '../components/Page';
+import Title from '../components/Title';
 
 const Home = () => {
-  const test = 5;
+  console.log('Home');
+
   return (
     <Page>
       <header>
-        <h1>
+        <Title>
           Home
-        </h1>
+        </Title>
       </header>
 
       <p>
         This is the home page.
       </p>
+
+      <NavigationButtons>
+        <p>Button1</p>
+        <p>Button2</p>
+      </NavigationButtons>
     </Page>
   );
 };
