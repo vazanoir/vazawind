@@ -4,6 +4,6 @@ const Title = ({
   children,
 }: {
   children: React.ReactNode
-}) => <h1>{children}</h1>;
+}) => <h1 className="text-6xl font-bold">{children}</h1>;
 
 export default Title;
