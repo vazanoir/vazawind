@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Button';
 import NavigationButtons from '../components/NavigationButtons';
 import Page from '../components/Page';
 import Title from '../components/Title';
@@ -19,8 +20,8 @@ const Home = () => {
       </p>
 
       <NavigationButtons>
-        <p>Button1</p>
-        <p>Button2</p>
+        <Button>Button1</Button>
+        <Button>Button2</Button>
       </NavigationButtons>
     </Page>
   );
