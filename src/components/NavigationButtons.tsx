@@ -4,6 +4,6 @@ const NavigationButtons = ({
   children,
 }: {
   children: React.ReactNode
-}) => <div className="flex justify-between">{children}</div>;
+}) => <div className="flex justify-between flex-1 items-end">{children}</div>;
 
 export default NavigationButtons;

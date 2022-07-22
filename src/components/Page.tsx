@@ -5,7 +5,7 @@ const Page = ({
 }: {
   children: React.ReactNode;
 }) => (
-  <div className="p-6">
+  <div className="p-6 flex flex-col h-screen">
     {children}
   </div>
 );
