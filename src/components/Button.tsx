@@ -37,10 +37,10 @@ const Button = ({
   const style = () => {
     if (headless) return className;
 
-    const base = 'px-8 py-2 rounded-md ease-out transition-colors font-medium dark:text-dark-secondary whitespace-nowrap text-light-primary-100 bg-light-accent-500 hover:bg-light-accent-400 dark:bg-dark-accent-500 dark:hover:bg-dark-accent-400';
+    const base = 'px-8 py-2 rounded-md ease-out transition-colors font-medium whitespace-nowrap text-neutral-100 bg-neutral-900 hover:bg-neutral-800';
 
     const c = colorless
-      ? 'text-light-secondary bg-light-primary-300 hover:bg-light-primary-300/80 dark:bg-dark-primary-600 dark:hover:bg-dark-primary-500'
+      ? 'bg-neutral-500 hover:bg-neutral-400'
       : '';
 
     const d = disabled
@@ -48,7 +48,7 @@ const Button = ({
       : '';
 
     const s = success
-      ? 'bg-light-success-400 dark:bg-dark-success-500'
+      ? 'bg-green-300'
       : '';
 
     return `${base} ${c} ${d} ${s} ${className}`;
