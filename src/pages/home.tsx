@@ -9,19 +9,15 @@ const Home = () => {
 
   return (
     <Page>
-      <header>
-        <Title>
-          Home
-        </Title>
-      </header>
+      <Title>Vazawind</Title>
 
-      <p>
+      <p className="mt-8">
         This is the home page.
       </p>
 
       <NavigationButtons>
-        <Button>Button1</Button>
-        <Button>Button2</Button>
+        <Button />
+        <Button>Next</Button>
       </NavigationButtons>
     </Page>
   );
